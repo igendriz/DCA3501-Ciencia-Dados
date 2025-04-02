@@ -63,8 +63,7 @@ Estudantes de graduação em cursos de **Engenharia** ou de outras áreas que te
 
 ### Materiais:
 
-💻 [`notebook_aula01.ipynb`](Aulas/Aula01/notebook_aula01.ipynb)  
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO/DCA3501-Ciencia-de-Dados/blob/main/Aulas/Aula01/notebook_aula01.ipynb)
+💻 [`notebook_aula01.ipynb`](Aulas/Aula01/Ciência de Dados Aula 1 - Introdução ao Python.ipynb)  
 
 ---
 
