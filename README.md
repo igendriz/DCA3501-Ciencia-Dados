@@ -67,6 +67,25 @@ Estudantes de graduação em cursos de **Engenharia** ou de outras áreas que te
 
 ---
 
+## 📘 Aula 02 – Computação Científica com o Pacote NumPy
+
+### Objetivo:
+- Apresentar o pacote **NumPy** para computação científica em Python.
+- Demonstrar o uso do tipo **array**, que, apesar de sintaticamente semelhante a listas, é significativamente mais eficiente em termos computacionais.
+- Explicar que os elementos de uma variável do tipo **array** em NumPy são do mesmo tipo, o que garante maior eficiência em comparação com listas.
+
+### Contextualização:
+- **NumPy** é o pacote fundamental para computação científica com Python, fornecendo suporte para operações com vetores multidimensionais e funções de álgebra linear.
+- Muitos outros pacotes Python utilizam as representações de **array** do NumPy como uma estrutura de dados básica e eficiente.
+- O pacote **SciPy** amplia as funcionalidades do NumPy, oferecendo uma coleção de algoritmos numéricos e ferramentas específicas para áreas como processamento de sinais, otimização e estatísticas.
+- **Matplotlib**, um dos pacotes mais populares para visualização de dados em Python, utiliza arrays do NumPy como base para criar gráficos.
+
+### Materiais:
+
+💻 [`notebook_aula02.ipynb`](Aulas/Aula02/Aula02-Pacote_Numpy.ipynb)  
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
