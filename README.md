@@ -63,7 +63,7 @@ Estudantes de graduação em cursos de **Engenharia** ou de outras áreas que te
 
 ### Materiais:
 
-💻 [`notebook_aula01.ipynb`](Aulas/Aula01/Aula01_Introducao_ao_Python.ipynb)  
+💻 [`notebook_aula01.ipynb`](Aulas/Aula01/Aula01-Introducao_ao_Python.ipynb)  
 
 ---
 
