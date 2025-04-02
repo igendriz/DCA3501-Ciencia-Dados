@@ -86,6 +86,42 @@ Estudantes de graduação em cursos de **Engenharia** ou de outras áreas que te
 
 ---
 
+## 📘 Aula 03 – Pacote de Gráficos Matplotlib
+
+### Conteúdo:
+- Introdução ao pacote **Matplotlib** para visualização de dados em Python.
+- Principais comandos para criação de gráficos básicos e personalização.
+- Uso da interface **pyplot** para traçado de gráficos.
+
+### Contextualização:
+O **Matplotlib** é uma das bibliotecas mais populares para visualização de dados em Python, sendo amplamente utilizada por sua flexibilidade e integração com o pacote **NumPy**. É uma biblioteca multiplataforma projetada para funcionar em conjunto com outras ferramentas científicas, como o **SciPy**.
+
+#### Principais Características:
+- Permite a criação de diversos tipos de gráficos, desde gráficos de linha básicos até visualizações mais complexas.
+- A interface **pyplot** é amplamente utilizada para gerar gráficos interativos e estáticos de forma simples.
+
+#### Exemplos de Uso:
+- Para importar o pacote Matplotlib:
+  ```python
+  import matplotlib as mpl
+  import matplotlib.pyplot as plt
+  ```
+- Para traçar um gráfico de linha básico:
+  ```python
+  plt.plot(x, y)
+  plt.show()
+  ```
+  
+#### Mais Informações:
+- Site oficial do Matplotlib: [https://matplotlib.org/index.html](https://matplotlib.org/index.html)
+
+### Materiais:
+
+💻 [`notebook_aula03.ipynb`](Aulas/Aula03/Aula03-Pacote_MatPlotlib.ipynb)  
+
+---
+
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
