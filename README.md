@@ -121,6 +121,30 @@ O **Matplotlib** é uma das bibliotecas mais populares para visualização de da
 
 ---
 
+## 📘 Aula 04 – Pacote Pandas – Parte I
+
+### Conteúdo:
+- Introdução ao pacote **Pandas** para manipulação e análise de dados em Python.
+- Principais estruturas de dados: **DataFrame** e **Series**.
+- Diferenças entre os tipos de dados do Pandas e os arrays do **NumPy**.
+
+### Contextualização:
+O pacote **Pandas** é amplamente utilizado para análise de dados e é construído sobre os pacotes **NumPy** e **Matplotlib**. Diferentemente dos arrays do NumPy, as variáveis manipuladas pelo Pandas podem conter elementos de tipos diversos (não homogêneos), proporcionando maior flexibilidade na manipulação de dados estruturados.
+
+#### Principais Estruturas de Dados:
+- **DataFrames:**  
+  Estruturas de dados retangulares que representam informações em formato de tabela, semelhante a planilhas. As colunas possuem o mesmo comprimento, e cada coluna contém elementos de um mesmo tipo de dado.  
+
+- **Series:**  
+  Objetos unidimensionais que contêm um array de dados, semelhante a um array NumPy, mas com um conjunto associado de rótulos (índices). Quando não especificados, os índices seguem o padrão NumPy (de zero a n-1).  
+
+#### Principais Vantagens:
+Com essas estruturas de dados, o Pandas implementa uma série de operações de alto nível, especialmente úteis para usuários que trabalham com **bancos de dados** e **planilhas**.
+
+### Materiais:
+
+💻 [`notebook_aula04.ipynb`](Aulas/Aula04/Aula04_Pacote_Pandas_ParteI.ipynb)  
+
 
 ## 📁 Estrutura do Repositório
 
