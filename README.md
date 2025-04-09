@@ -145,6 +145,44 @@ Com essas estruturas de dados, o Pandas implementa uma série de operações de 
 
 💻 [`notebook_aula04.ipynb`](Aulas/Aula04/Aula04_Pacote_Pandas_ParteI.ipynb)  
 
+## 📘 Aula 05 – Pacote Pandas – Parte II (Prática Individual)
+
+### Conteúdo:
+- Atividade prática para reforçar os conceitos apresentados na aula anterior.
+- Exercícios envolvendo leitura de arquivos e visualização de dados com Pandas e Matplotlib.
+- Exploração de diferentes bases de dados para aplicar operações básicas de análise.
+
+### Contextualização:
+O objetivo desta aula é permitir que os(as) estudantes pratiquem, de forma individual, o uso de comandos essenciais do Pandas. A aula foca na consolidação dos conhecimentos por meio da experimentação prática com importação de dados, criação de gráficos e manipulação básica de tabelas.
+
+### Materiais:
+
+💻 [`notebook_aula05.ipynb`](Aulas/Aula05/Aula05-Pacote_Pandas_ParteII.ipynb)  
+
+---
+
+## 📘 Aula 06 – Pacote Pandas – Parte III
+
+### Conteúdo:
+- Manipulação avançada de DataFrames com **GroupBy**, **Merge**, **Join** e **Concatenação**.
+- Aplicações práticas de operações condicionais e agregações estruturadas.
+
+### Contextualização:
+Nesta aula, abordamos funcionalidades avançadas do Pandas voltadas à integração, filtragem e agregação de dados em múltiplas tabelas. São ferramentas fundamentais para a análise exploratória de dados mais complexos e estruturados, comumente encontradas em contextos profissionais e científicos.
+
+#### Funcionalidades Avançadas:
+- **GroupBy:** Técnica inspirada no comando SQL `GROUP BY`, que realiza uma sequência de operações:
+  - **Split:** Agrupamento do DataFrame com base em uma ou mais chaves.
+  - **Apply:** Aplicação de funções de agregação, transformação ou filtragem sobre os grupos.
+  - **Combine:** Combinação dos resultados em um único objeto de saída.
+
+- **Merge e Join:** Técnicas para combinar tabelas com base em chaves comuns, semelhantes às operações de junção em bancos de dados relacionais.
+
+- **Concatenação:** Empilhamento de DataFrames horizontal ou verticalmente, útil para reorganizar e unir tabelas.
+
+### Materiais:
+
+💻 [`notebook_aula06.ipynb`](Aulas/Aula06/Aula06-Pacote_Pandas_ParteIII.ipynb)  
 
 ## 📁 Estrutura do Repositório
 
