@@ -184,6 +184,40 @@ Nesta aula, abordamos funcionalidades avançadas do Pandas voltadas à integraç
 
 💻 [`notebook_aula06.ipynb`](Aulas/Aula06/Aula06-Pacote_Pandas_ParteIII.ipynb)  
 
+---
+## 📘 Aula 07 – Pandas – Parte IV: Análise Exploratória de Dados (EDA)
+
+### Conteúdo:
+- Introdução à **Análise Exploratória de Dados (EDA)**.
+- Uso de dados reais para estudo comparativo entre bairros de Natal/RN.
+- Geração de gráficos de barras, dispersão e observações estatísticas com `pandas` e `matplotlib`.
+
+### Contextualização:
+A Análise Exploratória de Dados (AED ou EDA – *Exploratory Data Analysis*) é uma etapa fundamental na **Ciência de Dados**, utilizada para compreender padrões, detectar anomalias e formular hipóteses com base em dados. Neste estudo, são analisados dados socioeconômicos de 36 bairros da cidade de **Natal/RN**, agrupados em quatro regiões administrativas: **Norte**, **Sul**, **Leste** e **Oeste**.
+
+#### Objetivos:
+- Aplicar técnicas de EDA em um conjunto de dados reais.
+- Compreender desigualdades regionais por meio de indicadores como população e renda.
+- Explorar visualizações como gráficos de dispersão e gráficos de barras.
+
+#### Materiais e Métodos:
+- **Dados**: Extraídos do **IBGE** (com fins exclusivamente didáticos).  
+- **Ferramentas**: Python 3.12.4 com `pandas`, `numpy` e `matplotlib` (usando os conteúdos estudados em aulas anteriores).
+- **Abordagem**: Visualização e separação simples por regiões administrativas.
+
+#### Resultados:
+A análise revelou contrastes socioeconômicos entre os bairros das regiões:
+- **Norte** e **Oeste**: maior densidade populacional e menor renda média.
+- **Leste** e **Sul**: bairros menos populosos e com maior rendimento médio per capita.
+
+#### Conclusão:
+A aula demonstra o potencial das ferramentas de Ciência de Dados na análise de dados públicos, promovendo o desenvolvimento de análises quantitativas com relevância social e apoio à tomada de decisão.
+
+### Materiais:
+
+💻 [`notebook_aula07.ipynb`](Aulas/Aula07/Aula07_PandasIV-EDA.ipynb)  
+📄 [`aula07.pdf`](Aulas/Aula07/Aula07_PandasIV-EDA.pdf)
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
