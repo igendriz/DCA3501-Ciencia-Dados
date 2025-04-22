@@ -218,6 +218,62 @@ A aula demonstra o potencial das ferramentas de Ciência de Dados na análise de
 💻 [`notebook_aula07.ipynb`](Aulas/Aula07/Aula07_PandasIV-EDA.ipynb)  
 📄 [`aula07.pdf`](Aulas/Aula07/Aula07_PandasIV-EDA.pdf)
 
+## 📘 Aula 08 – Fundamentos de Estatística
+
+### Conteúdo:
+- Conceitos fundamentais de estatística: média, mediana, variância, desvio padrão e outras medidas de tendência central e dispersão.
+- Utilização de funções estatísticas nos pacotes **NumPy**, **Pandas** e **SciPy**.
+- Introdução prática às distribuições estatísticas usando o módulo `stats` da biblioteca **SciPy**.
+
+### Contextualização:
+A estatística é uma base essencial da **Ciência de Dados**, fornecendo ferramentas para descrever, interpretar e modelar dados. Nesta aula, são apresentados conceitos fundamentais da estatística descritiva, bem como a aplicação de distribuições de probabilidade para modelar variáveis aleatórias.
+
+#### Tópicos abordados:
+- Como calcular medidas estatísticas com funções prontas das bibliotecas NumPy, Pandas e SciPy.
+- Geração de números aleatórios para simulações.
+- Uso do módulo `scipy.stats` para trabalhar com distribuições discretas e contínuas.
+- Comandos iniciais:
+  ```python
+  from scipy import stats
+  ```
+
+#### Exemplos de aplicação:
+- Simulação de variáveis aleatórias.
+- Visualização de distribuições.
+- Análise de características estatísticas de conjuntos de dados.
+
+### Materiais:
+
+💻 [`notebook_aula08.ipynb`](Aulas/Aula08/Aula08_Fundamentos-Estatistica.ipynb)  
+📄 [`aula08.pdf`](Aulas/Aula08/Aula08_Fundamentos-Estatistica.pdf)
+
+## 📘 Aula 09 – Modelos Estatísticos
+
+### Conteúdo:
+- Aplicação prática de **modelos estatísticos** por meio do uso de distribuições de probabilidade no pacote `scipy.stats`.
+- Extração de medidas estatísticas a partir de distribuições paramétricas.
+- Geração e visualização de distribuições para análise e simulação.
+
+### Contextualização:
+Nesta aula, aprofundamos o estudo das distribuições estatísticas, focando em sua implementação prática com a biblioteca **SciPy**, por meio do submódulo `stats`. As distribuições estatísticas permitem representar matematicamente variáveis aleatórias e modelar fenômenos reais em diversos contextos científicos e aplicados.
+
+#### Distribuições abordadas:
+- **Distribuição Uniforme:**  
+  Modelo de distribuição onde todos os valores de um intervalo possuem a mesma probabilidade de ocorrência.
+  
+- **Distribuição Normal:**  
+  Uma das distribuições mais utilizadas em estatística e ciência de dados. Usada para modelar fenômenos naturais com comportamento simétrico em torno da média.
+
+#### Exemplos de aplicação:
+- Simulação de dados a partir de distribuições conhecidas.
+- Cálculo de estatísticas como média, variância, desvio padrão, quantis e funções de densidade.
+- Visualização e comparação entre distribuições.
+
+### Materiais:
+
+💻 [`notebook_aula09.ipynb`](Aulas/Aula09/Aula09_Modelos-Estatisticos.ipynb)  
+📄 [`aula09.pdf`](Aulas/Aula09/Aula09_Modelos-Estatisticos.pdf)
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
