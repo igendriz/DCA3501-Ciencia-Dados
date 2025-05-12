@@ -274,6 +274,61 @@ Nesta aula, aprofundamos o estudo das distribuições estatísticas, focando em 
 💻 [`notebook_aula09.ipynb`](Aulas/Aula09/Aula09_Modelos-Estatisticos.ipynb)  
 📄 [`aula09.pdf`](Aulas/Aula09/Aula09_Modelos-Estatisticos.pdf)
 
+## 📘 Aula 10 – Análise Exploratória de Dados (EDA) com Pandas e Seaborn
+
+### Conteúdo:
+
+* Uso do pacote **Seaborn** para visualização estatística durante o processo de EDA.
+* Aplicação de ferramentas baseadas no **Pandas** para agilizar e/ou automatizar o processo de análise exploratória.
+
+### Contextualização:
+
+A **Análise Exploratória de Dados (EDA)** é uma etapa essencial no fluxo de trabalho da Ciência de Dados, permitindo a identificação de padrões, tendências e anomalias. Nesta aula, exploraremos as capacidades do **Seaborn**, uma biblioteca de visualização de dados construída sobre o **Matplotlib**, com integração direta com o **Pandas**.
+
+#### Pacote Seaborn:
+
+O **Seaborn** fornece uma API de alto nível para a criação de gráficos estatísticos, permitindo gerar visualizações ricas e esteticamente atraentes com poucas linhas de código. Ele facilita a criação de gráficos como:
+
+* Gráficos de dispersão (scatter plots)
+* Gráficos de regressão
+* Gráficos de densidade (kdeplots)
+* Mapas de calor (heatmaps)
+
+📌 **Links de Referência para Seaborn:**
+
+* [Seaborn – Documentação Oficial](https://seaborn.pydata.org/)
+* [Python Data Science Handbook – Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
+* [Minerando Dados – Seaborn Tutorial](https://minerandodados.com.br/tutorial-completo-de-como-trabalhar-com-a-biblioteca-seaborn/)
+
+---
+
+### Pacotes para Automatização do Processo de EDA:
+
+Além do Seaborn, há ferramentas desenvolvidas sobre o **Pandas** para automatizar o processo de EDA, permitindo gerar relatórios rápidos e gráficos detalhados de forma automática:
+
+* **Pandas Profiling:** Gera um relatório exploratório detalhado a partir de um DataFrame.
+
+  * [Documentação](https://pandas-profiling.github.io/pandas-profiling/docs/master/index.html)
+
+* **Sweetviz:** Cria relatórios interativos e visualizações de comparação entre conjuntos de dados.
+
+  * [Sweetviz no PyPI](https://pypi.org/project/sweetviz/)
+
+* **AutoViz:** Automatiza a criação de gráficos exploratórios a partir de um único comando.
+
+  * [AutoViz – Site Oficial](https://autoviz.io/)
+
+* **QuickDA:** Uma abordagem simplificada para EDA e limpeza de dados.
+
+  * [QuickDA – Tutorial](https://analyticsindiamag.com/hands-on-tutorial-on-quickda-for-data-analysis-and-cleaning/)
+
+---
+
+### Materiais:
+
+💻 [`notebook_aula10.ipynb`](Aulas/Aula10/Aula10_EDA-Pandas&Seaborn.ipynb)
+📄 [`aula10.pdf`](Aulas/Aula10/Aula10_EDA.pdf)
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
