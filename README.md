@@ -322,12 +322,65 @@ Além do Seaborn, há ferramentas desenvolvidas sobre o **Pandas** para automati
 
   * [QuickDA – Tutorial](https://analyticsindiamag.com/hands-on-tutorial-on-quickda-for-data-analysis-and-cleaning/)
 
----
-
 ### Materiais:
 
 💻 [`notebook_aula10.ipynb`](Aulas/Aula10/Aula10_EDA-Pandas&Seaborn.ipynb)
 📄 [`aula10.pdf`](Aulas/Aula10/Aula10_EDA.pdf)
+
+---
+
+## 📘 Aula 12 – Gráficos Interativos com o Pacote Plotly
+
+### Conteúdo:
+
+* Introdução ao pacote **Plotly** para criação de gráficos interativos em Python.
+* Diferenças entre os módulos `plotly.express` e `plotly.graph_objects`.
+* Exemplos de visualização interativa para dados geográficos, séries temporais e categorias.
+
+### Contextualização:
+
+O **Plotly** é uma biblioteca open-source voltada à **visualização interativa de dados**, compatível com Python, R e JavaScript. Sua versão para Python (`plotly.py`) é construída sobre a biblioteca JavaScript `plotly.js` e permite incorporar visualizações interativas em **notebooks Jupyter/Colab** e **páginas HTML estáticas**.
+
+Com suporte a mais de 40 tipos de gráficos (como gráficos de linhas, barras, dispersão, mapas e candlesticks), o Plotly é uma ferramenta poderosa e versátil para a construção de dashboards e relatórios interativos em ciência de dados.
+
+#### Estrutura de Uso:
+
+O Plotly possui dois módulos principais com abordagens distintas:
+
+* **Plotly Express (`plotly.express` ou `px`)**
+  Interface de alto nível, mais simples e concisa.
+
+  ```python
+  import plotly.express as px
+  fig = px.tipo_grafico(dados, parametros)
+  fig.show()
+  ```
+
+* **Plotly Graph Objects (`plotly.graph_objects` ou `go`)**
+  Interface mais detalhada e flexível, ideal para customizações avançadas.
+
+  ```python
+  import plotly.graph_objects as go
+  trace = go.TipoGrafico(x=x, y=y, ...)
+  fig = go.Figure(data=[trace])
+  fig.show()
+  ```
+
+#### Links de Referência:
+
+* [Documentação Oficial do Plotly](https://plotly.com/)
+* [Galeria de Gráficos](https://plotly.com/graphing-libraries/)
+* [Blog – Plotly com Geomaps](https://medium.com/analytics-vidhya/plotly-for-geomaps-bb75d1de189f)
+* [Tutorial Sigmoidal (em português)](https://sigmoidal.ai/como-criar-graficos-interativos-usando-plotly-e-python/)
+* [YouTube: Introdução ao Plotly (vídeo 1)](https://www.youtube.com/watch?v=Xk0zHZBa7LM)
+* [YouTube: Gráficos com Plotly (vídeo 2)](https://www.youtube.com/watch?v=CVSd0WKy5cs)
+
+### Materiais:
+
+💻 [`notebook_aula12.ipynb`](Aulas/Aula12/Aula12_Pacote-Plotly.ipynb)
+📄 [`aula12.pdf`](Aulas/Aula12/Aula12_Graficos-Interativos.pdf)
+
+---
 
 ## 📁 Estrutura do Repositório
 
