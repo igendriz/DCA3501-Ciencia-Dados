@@ -382,6 +382,39 @@ O Plotly possui dois módulos principais com abordagens distintas:
 
 ---
 
+## 📘 Aula 13 – Aplicações Interativas com Streamlit
+
+### Conteúdo:
+
+* Introdução ao uso do **Streamlit** para construção de aplicações web interativas voltadas à visualização e análise de dados.
+* Exploração de componentes essenciais: `st.write()`, `st.dataframe()`, `st.plotly_chart()`, `st.slider()`, `st.button()`, entre outros.
+* Integração com **Plotly** para visualizações interativas.
+* Construção de uma aplicação baseada em dados socioeconômicos reais de Natal/RN.
+
+### Contextualização:
+
+O **Streamlit** é uma biblioteca de código aberto para Python que permite criar aplicações web de forma rápida e simples, com foco em **ciência de dados**. Sua integração nativa com bibliotecas como **Pandas**, **Matplotlib** e **Plotly** facilita a criação de dashboards interativos com poucas linhas de código.
+
+Durante esta aula, os alunos exploram o Streamlit através de exemplos práticos e constroem uma aplicação interativa para visualizar e filtrar dados reais, aplicando técnicas de EDA em um ambiente web dinâmico.
+
+### Materiais:
+
+💻 Exemplos práticos:
+
+* [`Aula13_Ex1_elementos_basicos.py`](Aulas/Aula13/Aula13_Ex1_elementos_basicos.py)
+* [`Aula13_Ex2_widgets_interativos.py`](Aulas/Aula13/Aula13_Ex2_widgets_interativos.py)
+* [`Aula13_Ex3_plotly_visualizacao.py`](Aulas/Aula13/Aula13_Ex3_plotly_visualizacao.py)
+* [`Aula13_Ex4_layout_containers.py`](Aulas/Aula13/Aula13_Ex4_layout_containers.py)
+* [`Aula13_Ex5_filtros_dados_reais.py`](Aulas/Aula13/Aula13_Ex5_filtros_dados_reais.py)
+
+📄 Slides: [`aula13.pdf`](Aulas/Aula13/Aula13_Streamlit-para-Ciencia-de-Dados.pdf)
+
+🔗 **Créditos:**
+Os exemplos práticos utilizados nesta aula foram baseados e adaptados a partir do material criado por **Victor Gomes**, disponível em:
+[https://github.com/VictorNGomes/Streamlit-Introduction](https://github.com/VictorNGomes/Streamlit-Introduction)
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
