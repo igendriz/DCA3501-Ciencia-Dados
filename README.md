@@ -415,6 +415,34 @@ Os exemplos práticos utilizados nesta aula foram baseados e adaptados a partir 
 
 ---
 
+## 📘 Aula 14 – Aprendizagem Supervisionada com o Pacote Scikit-learn
+
+### Conteúdo:
+
+* Introdução ao pacote **Scikit-learn (sklearn)** para tarefas de **aprendizado supervisionado**.
+* Aplicação prática do algoritmo de classificação **K-Nearest Neighbors (KNN)**.
+* Execução completa de um pipeline de modelagem: do carregamento de dados à avaliação do modelo.
+
+### Contextualização:
+
+O **Scikit-learn** é uma das bibliotecas mais importantes da linguagem Python para tarefas de aprendizado de máquina. Nesta aula, exploramos sua aplicação em problemas de **classificação supervisionada**, com foco no modelo **KNN**, percorrendo todas as etapas essenciais do fluxo de trabalho em machine learning.
+
+#### Etapas do Processo:
+
+* Importação dos pacotes e definição do modelo (ex: `KNeighborsClassifier`).
+* Carregamento e preparação dos dados (features e alvo como arrays do NumPy).
+* Separação em **dados de treinamento e teste**.
+* **Binarização** de dados, se necessário.
+* **Treinamento** do modelo com `modelo.fit(...)`.
+* **Predição** com `modelo.predict(...)`.
+* Avaliação dos resultados por meio de métricas adequadas.
+
+### Materiais:
+
+💻 [`notebook_aula14.ipynb`](Aulas/Aula14/Aula_14_Pacote_Sklearn_Classificacao.ipynb)
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```plaintext
