@@ -433,13 +433,47 @@ O **Scikit-learn** é uma das bibliotecas mais importantes da linguagem Python p
 * Carregamento e preparação dos dados (features e alvo como arrays do NumPy).
 * Separação em **dados de treinamento e teste**.
 * **Binarização** de dados, se necessário.
-* **Treinamento** do modelo com `modelo.fit(...)`.
+* **Treinamento** do modelo com `modelo.fit(...)`.****
 * **Predição** com `modelo.predict(...)`.
 * Avaliação dos resultados por meio de métricas adequadas.
 
 ### Materiais:
 
 💻 [`notebook_aula14.ipynb`](Aulas/Aula14/Aula_14_Pacote_Sklearn_Classificacao.ipynb)
+
+---
+## 📘 Aula 16 – Aprendizagem Não Supervisionada com o Pacote Scikit-learn
+
+### Conteúdo:
+
+* Introdução aos principais **algoritmos de agrupamento (clustering)** disponíveis no pacote **Scikit-learn**.
+* Aplicações práticas com os métodos **K-Means** e **Hierárquico Aglomerativo**.
+* Análise preliminar de dados e avaliação de agrupamentos com métricas específicas.
+
+### Contextualização:
+
+A aprendizagem **não supervisionada** é uma abordagem em que os modelos aprendem padrões a partir de dados **sem rótulos definidos**. Nesta aula, exploramos técnicas de **agrupamento de dados (clustering)** com o uso do Scikit-learn, destacando a aplicação dos algoritmos **K-Means** e **Hierárquico**, amplamente utilizados para segmentação de dados em diversas áreas.
+
+#### Tópicos abordados:
+
+* Exemplos práticos com conjuntos de dados sintéticos e reais.
+* Análise exploratória para identificar estruturas ou tendências nos dados.
+* Algoritmos de agrupamento offline:
+
+  * **K-Means**
+  * **Hierárquico Aglomerativo**
+* Avaliação da qualidade dos agrupamentos por meio de métricas como **inércia**, **silhouette score**, entre outras.
+
+### Referências:
+
+* Jake VanderPlas – *Python Data Science Handbook*, O’Reilly (2017)
+* Andreas C. Müller & Sarah Guido – *Introduction to Machine Learning with Python*, O’Reilly (2017)
+* [Documentação oficial – Scikit-learn Clustering](https://scikit-learn.org/stable/modules/clustering.html)
+* [Artigo – Towards Data Science: 5 clustering algorithms](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
+
+### Materiais:
+
+💻 [`notebook_aula16.ipynb`](Aulas/Aula16/Aula_16_Agrupamento_de_Dados.ipynb)
 
 ---
 
